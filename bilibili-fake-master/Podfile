@@ -1,0 +1,25 @@
+:inhibit_all_warnings!
+platform :ios, '9.3'
+
+
+target 'bilibili fake' do
+
+    pod 'Masonry'
+    
+    pod 'SDWebImage'
+    
+    pod 'MBProgressHUD'
+    
+    pod 'AFNetworking'
+    
+    pod 'MJExtension'
+
+    pod 'ReactiveCocoa', '~> 2.5'
+
+    pod  'SwipeBack'
+    
+#    pod 'FXBlurView'
+
+    pod 'XMLDictionary'
+
+end
